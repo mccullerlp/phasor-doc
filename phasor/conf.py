@@ -234,5 +234,6 @@ texinfo_documents = [
 
 def setup(app):
     app.add_stylesheet('my_theme.css')
+    app.add_stylesheet('pygments_adjust.css')
 
 
