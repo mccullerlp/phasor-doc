@@ -231,6 +231,7 @@ texinfo_documents = [
     ),
 ]
 
+html_logo = 'logo/phasor_logo_side.svg'
 
 def setup(app):
     app.add_stylesheet('my_theme.css')

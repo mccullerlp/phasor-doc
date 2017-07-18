@@ -14,8 +14,8 @@ help:
 .PHONY: help Makefile
 
 apidoc: Makefile
-	sphinx-apidoc $@ ~/projects/phasor/ -o "phasor/apidoc/" 
-	sphinx-apidoc $@ ~/projects/declarative/ -o "phasor/apidoc_decl/" 
+	sphinx-apidoc ~/projects/phasor/phasor -o "phasor/apidoc/" 
+	sphinx-apidoc ~/projects/declarative/declarative -o "phasor/apidoc_decl/" 
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
